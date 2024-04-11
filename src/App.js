@@ -3,7 +3,8 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Home from './components/Home';
 import Character from './components/Character';
 import NotFound from './components/NotFound';
-import './styles.scss'; 
+import './styles/main.scss'
+
 
 export const HistoryContext = createContext(null);
 
